@@ -27,7 +27,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.chatty.dev",
       "targets": "all"
     },
     "security": {
@@ -38,11 +38,12 @@
     },
     "windows": [
       {
-        "fullscreen": false,
-        "resizable": true,
-        "title": "chatty",
-        "width": 800,
-        "height": 600
+		"fullscreen": false,
+		"resizable": true,
+		"transparent": true,
+		"title": "chatty",
+		"width": 800,
+		"height": 600
       }
     ]
   }
