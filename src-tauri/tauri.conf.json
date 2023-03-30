@@ -16,7 +16,14 @@
       "shell": {
         "all": false,
         "open": true
-      }
+      },
+	  "window": {
+		"setAlwaysOnTop": true,
+		"close": true,
+		"maximize": true,
+		"minimize": true,
+		"startDragging": true
+	  }
     },
     "bundle": {
       "active": true,
@@ -40,6 +47,7 @@
       {
 		"fullscreen": false,
 		"resizable": true,
+		"decorations": false,
 		"transparent": true,
 		"title": "chatty",
 		"width": 800,
